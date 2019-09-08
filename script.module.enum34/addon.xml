@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.enum34" name="enum34" version="1.1.6" provider-name="dagwieers">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+enum34 is the new Python stdlib enum module available in Python 3.4 backported for previous versions of Python from 2.4 to 3.3. tested on 2.6, 2.7, and 3.3+
+    <summary lang="en_GB">Python stdlib enum module from Python 3.4 backported</summary>
+    <description lang="en_GB">enum34 is the new Python stdlib enum module available in Python 3.4 backported for previous versions of Python from 2.4 to 3.3. tested on 2.6, 2.7, and 3.3+</description>
+    <platform>all</platform>
+    <license>BSD License</license>
+    <website>https://pypi.org/project/enum34/</website>
+    <source>https://bitbucket.org/stoneleaf/enum34/src/default/</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
